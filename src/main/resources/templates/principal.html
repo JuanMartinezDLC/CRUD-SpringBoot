@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en"
+      xmlns:th="http://www.thymeleaf.org" xmlns="http://www.w3.org/1999/html">
+<head th:replace="~{plantillas/plantilla::head}"></head>
+<body>
+<header th:replace="~{plantillas/plantilla::header}"></header>
+<main class="container text-center">
+        <h1>Principal</h1>
+        <h3 th:text="${mensaje}"></h3>
+</main>
+<footer th:replace="~{plantillas/plantilla::footer}"></footer>
+</body>
+</html>
